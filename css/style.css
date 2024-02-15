@@ -1,3 +1,9 @@
+.header li {
+  float: right;
+
+}
+
+
 .header {
   list-style-type: none;
   margin: 10px;
@@ -19,6 +25,13 @@
   text-decoration: underline;
 }
 
+
+
+.picheaderli img {
+  height: 40px;
+  border-radius: 50%;
+ 
+}
 .container {
   text-align: center;
   margin: 100px;
@@ -28,6 +41,7 @@
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
+  border-radius: 24px;
   box-shadow: none;
   z-index: 3;
   height: 44px;
@@ -65,6 +79,19 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: relative;
 }
 
+.icons svg {
+  
+  width: 24px;
+  height: 24px;
+  padding: 7px;
+
+}
+.icons {
+  margin: auto;
+}
+
+
+
 .input-enter {
   display: flex;
   flex: 1;
@@ -79,6 +106,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   line-height: 34px;
   height: 34px !important;
   display: block;
+  width: 400px;
 }
 
 .input {
@@ -93,6 +121,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   font: 16px arial, sans-serif;
   line-height: 34px;
   height: 34px !important;
+  width: 480px;
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
@@ -102,8 +131,26 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  border-style: none;
 }
 
+
+.buttons {
+
+  text-align: center;
+    
+}
+
+.buttons button {   
+  border-radius: 4px;
+  border: 1px;
+  border-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+
+}
 .googlesearch {
   margin: 11px 4px;
   padding: 0 16px;
@@ -123,7 +170,13 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   user-select: none;
 }
 
+button:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+
 .footer {
+  list-style-type: none;
+  background-color: #f2f2f2;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -154,4 +207,25 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli a:hover {
   text-decoration: underline;
+}
+
+.footerarea {
+
+  text-align: center;
+  padding-left: 20px;
+
+}
+
+.footerimg {
+  height: 12px;
+  width: 13px;
+
+}
+
+.footerlink {
+
+  color:rgb(32, 33, 36);
+  
+
+
 }
